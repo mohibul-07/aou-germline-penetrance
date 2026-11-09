@@ -1,0 +1,9 @@
+# Export test dependencies; do not mistake these ranges for historical pinned versions.
+numpy
+pandas
+scipy
+pytest
+# Workbench execution additionally needs google-cloud-bigquery, pyarrow,
+# openpyxl for the workbook adapter, matplotlib for plotting, Pillow for the
+# SEER report builder, and the historical
+# Hail/Spark environment. Restore its lock/metadata rather than installing latest.
